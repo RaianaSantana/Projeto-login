@@ -1,1 +1,150 @@
 @charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px; 
+    font-family: Arial, Helvetica, sans-serif;
+   
+  
+  
+
+}
+
+body {
+     background-image: linear-gradient( rgb(134, 73, 170),  rgb(162, 129, 192));
+}
+
+
+main { 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  
+
+}
+
+form {  
+    width: 25px;
+    color: white;
+ 
+   
+    
+
+ 
+}
+
+
+input {
+    padding: 10px;
+    width: 198px;
+    border: 3px solid rgb(113, 51, 172);
+    border-left: 10px solid rgb(113, 51, 172);
+    border-radius: 10px;
+    background-color: rgba(202, 156, 245, 0.432);
+    text-align: center;
+    margin-left: 55px;
+    margin-bottom: 10px;
+
+   
+}
+
+input:hover {   
+    background-color: rgba(107, 96, 163, 0.404);
+
+
+
+   
+}
+
+#b-entrar {
+
+    padding: 10px;
+    width: 260px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: large;
+    margin-bottom: 5px;
+    background-color: rgba(73, 61, 131, 0.719);
+}
+
+#b-entrar:hover {
+    background-color:  rgba(89, 57, 119, 0.664);
+
+
+
+}
+
+#b-senha {
+    padding: 10px;
+    width: 260px;
+    border-radius: 10px;
+    border: 1px solid rgba(73, 61, 131, 0.719);
+    color: rgba(73, 61, 131, 0.719);
+    font-size: large;
+    background-color: transparent;
+
+}
+
+#carta {
+    width: 20px;
+}
+
+#chave {
+    width: 41px;
+    margin-left: 21px;
+    background-color:  rgb(113, 51, 172);
+    position: absolute;
+    border-radius: 10px 0px 0px 10px;
+   
+
+
+   
+
+}
+
+#pessoa {
+    width: 41px;
+    margin-left: 21px;
+    position: absolute;
+    background-color:  rgb(113, 51, 172);
+    border-radius: 10px 0px 0px 10px;
+
+
+   
+
+}
+
+#login {
+    background-color: white;
+    height: 600px;
+    width: 300px;
+    border-radius: 35px;
+    overflow: hidden;
+
+
+
+}
+
+#imagem  {
+    background-size: cover;
+    height: 40%;
+    overflow: hidden;
+}
+
+.imgs {
+    margin-left: 15px;
+
+}
+
+h1 {
+    margin: 15px;
+}
+
+p {
+   text-align: left;
+   margin: 15px;
+}
