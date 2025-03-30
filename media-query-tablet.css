@@ -4,32 +4,40 @@
 
    
     #login {
-        padding-right: 10px;
-        height: 43%;
+        padding-right: 280px;
+        height: 49%;
         border-radius: 45px 0px 0px 45px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-20px, 0px);
 
       
       
        
       
+    }
+
+    input {
+
     }
 
     button {
       
     }
 
-    #img-city {
-        display: block;
+    #img-city {   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 50%;
+        position: absolute;
         width: 370px;
-        border-radius: 0px 45px 45px 0px;
-        height: 43%;
+        border-radius: 40% 45px 45px 40%;
+        height: 49.1%;
     }
 
     #imagem {
         display: none;
-       
-       
-
 
       
        

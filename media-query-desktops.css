@@ -1,17 +1,23 @@
 @charset "UTF-8";
 
 @media  screen and (min-width: 992px) and (max-width: 1280px) {
+
+    p {
+        width: 360px;
+    }
  
     #login {
+        padding-right: 32%;
         width: 400px;
-        padding-right: 10px;
         height: 49%;
-        border-radius: 45px 0px 0px 45px;
+        border-radius: 45px 45px 45px 45px;
+      
+    }
 
-      
-      
-       
-      
+    input {
+        width: 265px;
+
+
     }
 
     button {
@@ -19,9 +25,13 @@
     }
 
     #img-city {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 50%;
+        position: absolute;
         width: 400px;
-        border-radius: 0px 45px 45px 0px;
+        border-radius: 40% 45px 45px 40%;
         height: 49%;
     }
 

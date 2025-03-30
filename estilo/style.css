@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+    font-family: "Kaoly";
+    src: url(../fontes/Kaoly\ Demo-Regular.ttf);
+}
 
 * {
     padding: 0px;
@@ -8,6 +12,18 @@
   
   
 
+}
+
+button  {
+    font-family: "Kaoly";
+
+    
+
+
+}
+
+h1 {
+    font-family: "Kaoly";
 }
 
 body {
@@ -126,8 +142,9 @@ input:hover {
 }
 
 #login {
+    box-shadow: inset 10px 15px 45px rgba(83, 83, 83, 0.651) ;
     background-color: white;
-    height: 600px;
+    height: 650px;
     width: 350px;
     border-radius: 35px;
     overflow: hidden;
@@ -138,10 +155,13 @@ input:hover {
 
 #img-city {
     display: none;
+    box-shadow: 25px 26px 25px  rgba(76, 33, 116, 0.589);
+
 }
 
 #imagem  {
     background-size: cover;
+    border-radius: 0% 0% 40% 40%;
     height: 40%;
     overflow: hidden;
 }
