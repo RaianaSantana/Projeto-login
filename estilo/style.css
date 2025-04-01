@@ -27,7 +27,8 @@ h1 {
 }
 
 body {
-     background-image: linear-gradient( rgb(134, 73, 170),  rgb(162, 129, 192));
+     background-image: linear-gradient( rgb(127, 69, 161),  rgb(199, 161, 235));
+     height: 100vh;
 }
 
 
@@ -45,12 +46,14 @@ main {
 form {  
     width: 25px;
     color: white;
+
  
    
     
 
  
 }
+
 
 
 input {

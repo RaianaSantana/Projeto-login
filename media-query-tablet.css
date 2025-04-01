@@ -5,7 +5,7 @@
    
     #login {
         padding-right: 280px;
-        height: 49%;
+        height: 35%;
         border-radius: 45px 0px 0px 45px;
         top: 50%;
         left: 50%;
@@ -21,8 +21,24 @@
 
     }
 
-    button {
+    #b-entrar {
+        width: 50px;
+        font-size: 8px;
+        padding: 2px;
+
       
+    }
+
+    #b-senha {
+        width: 130px;
+        padding: 2px;
+        font-size: 8px;
+
+      
+    }
+
+    #carta {
+        display: none;
     }
 
     #img-city {   
@@ -33,7 +49,7 @@
         position: absolute;
         width: 370px;
         border-radius: 40% 45px 45px 40%;
-        height: 49.1%;
+        height: 35.2%;
     }
 
     #imagem {
