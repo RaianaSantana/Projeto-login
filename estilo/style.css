@@ -7,6 +7,7 @@
 * {
     padding: 0px;
     margin: 0px; 
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
    
   
@@ -14,171 +15,50 @@
 
 }
 
-button  {
-    font-family: "Kaoly";
-
-    
-
-
-}
-
 h1 {
     font-family: "Kaoly";
 }
 
-body {
+body, html {
      background-image: linear-gradient( rgb(127, 69, 161),  rgb(199, 161, 235));
      height: 100vh;
+     width: 100vw;
 }
 
 
-main { 
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main {
     height: 100vh;
-
-  
-
+    width: 100vw;
+    position: relative;
 }
 
-form {  
-    width: 25px;
-    color: white;
-
- 
-   
-    
-
- 
-}
-
-
-
-input {
-    padding: 10px;
-    display: flex;
-    width: 227px;
-    border: 3px solid rgb(113, 51, 172);
-    border-left: 10px solid rgb(113, 51, 172);
-    border-radius: 10px;
-    background-color: rgba(202, 156, 245, 0.432);
-    text-align: center;
-    margin-left: 55px;
-    margin-bottom: 10px;
-
-   
-}
-
-input:hover {   
-    background-color: rgba(107, 96, 163, 0.404);
-
-
-
-   
-}
-
-#b-entrar {
-
-    padding: 10px;
-    width: 260px;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    font-size: large;
-    margin-bottom: 5px;
-    background-color: rgba(73, 61, 131, 0.719);
-}
-
-#b-entrar:hover {
-    background-color:  rgba(89, 57, 119, 0.664);
-
-
-
-}
-
-#b-senha {
-    padding: 10px;
-    width: 260px;
-    border-radius: 10px;
-    border: 1px solid rgba(73, 61, 131, 0.719);
-    color: rgba(73, 61, 131, 0.719);
-    font-size: large;
-    background-color: transparent;
-
-}
-
-#b-senha:hover {
-    background-color: rgba(107, 96, 163, 0.404);
-
-
-}
-
-#carta {
-    width: 20px;
-}
-
-#chave {
-    width: 41px;
-    margin-left: 21px;
-    background-color:  rgb(113, 51, 172);
-    position: absolute;
-    border-radius: 10px 0px 0px 10px;
-   
-
-
-   
-
-}
-
-#pessoa {
-    width: 41px;
-    margin-left: 21px;
-    position: absolute;
-    background-color:  rgb(113, 51, 172);
-    border-radius: 10px 0px 0px 10px;
-
-
-   
-
-}
 
 #login {
-    box-shadow: inset 10px 15px 45px rgba(83, 83, 83, 0.651) ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: white;
-    height: 650px;
-    width: 350px;
-    border-radius: 35px;
+    width: 250px;
+    height: 500px;
     overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+
+
+}
+
+section#login > div#imagem {
+    display: block;
+    background:  rgb(127, 69, 161) url("../imagens/paisagem-noite.jpg");
+    background-size: cover;  
+    height: 200px;
+}
+
+section#login > div#formulario {
+    padding: 10px;
 
 
 
 }
 
-#img-city {
-    display: none;
-    box-shadow: 25px 26px 25px  rgba(76, 33, 116, 0.589);
-
-}
-
-#imagem  {
-    background-size: cover;
-    border-radius: 0% 0% 40% 40%;
-    height: 40%;
-    overflow: hidden;
-}
-
-.imgs {
-    margin-left: 15px;
-
-}
-
-h1 {
-    margin: 15px;
-}
-
-p {
-   text-align: left;
-   margin: 15px;
-}
