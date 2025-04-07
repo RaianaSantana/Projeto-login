@@ -4,6 +4,7 @@
     src: url(../fontes/Kaoly\ Demo-Regular.ttf);
 }
 
+
 * {
     padding: 0px;
     margin: 0px; 
@@ -20,7 +21,7 @@ h1 {
 }
 
 body, html {
-     background-image: linear-gradient( rgb(127, 69, 161),  rgb(199, 161, 235));
+     background-color:  rgb(127, 69, 161);
      height: 100vh;
      width: 100vw;
 }
@@ -34,6 +35,8 @@ main {
 
 
 #login {
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,19 +46,21 @@ main {
     height: 500px;
     overflow: hidden;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
 
 
 }
 
-section#login > div#imagem {
-    display: block;
-    background:  rgb(127, 69, 161) url("../imagens/paisagem-noite.jpg");
-    background-size: cover;  
-    height: 200px;
+#login > #imagem {
+     background-size: cover;
+     background-color:  rgb(127, 69, 161);
+     background-image: url("../imagens/paisagem-noite.jpg");
+     background-position: left bottom;
+     height: 200px;
 }
 
 section#login > div#formulario {
+    display: block;
     padding: 10px;
 
 
