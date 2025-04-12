@@ -3,26 +3,32 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
+    .campo > input {
+        background-color: rgb(155, 200, 211);
+        width: 86%;
+    }
+
     body {
         background-image: linear-gradient( rgb(127, 69, 161),  rgb(199, 161, 235));
 
     }
 
     #login {
-        width: 90vw;
+        width: 80vw;
+        height: 340px;
       
 
     }
 
     #login > #imagem {
         float: left;
-        width: 30%;
+        width: 40%;
         height: 100%;
     }
     
     #login > #formulario {
         float: right;
-        width: 70%;
+        width: 60%;
     }
 
     #formulario > p {
@@ -38,13 +44,19 @@
 
 @media screen and (min-width: 992px) {
 
+    .campo > input {
+        background-color: rgb(155, 200, 211);
+        width: 86%;
+    }
+
     body {
         background-image: linear-gradient( rgb(127, 69, 161),  rgb(199, 161, 235));
 
     }
 
     #login {
-        width: 950px;
+        width: 850px;
+        height: 375px;
     }
 
     #login > #imagem {
@@ -64,6 +76,7 @@
 
     #formulario > p {
         font-size: 1.2em;
+        margin: 20px 0px;
     }
 
    

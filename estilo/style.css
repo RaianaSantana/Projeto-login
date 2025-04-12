@@ -16,6 +16,18 @@
 
 }
 
+.campo > input {
+    background-color: rgb(155, 200, 211);
+    width: 75%;
+    border: none;
+    border-radius: 8px;
+}
+
+.campo > input:focus-within {
+    background-color: white;
+}
+
+
 .campo > label {
     display: none;
 
@@ -25,7 +37,7 @@ form > .campo{
     background-color: blueviolet;
     height: 40px;
     border-radius: 5px;
-    margin: 5px 0px;
+    margin: 8px;
 }
 
 
