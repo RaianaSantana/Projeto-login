@@ -16,8 +16,33 @@
 
 }
 
+.material-symbols-outlined {
+  
+
+}
+input {
+    width: 150px;
+
+  
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
 h1 {
     font-family: "Kaoly";
+}
+
+p {
+    margin-bottom: 10px;
 }
 
 body, html {
@@ -64,6 +89,20 @@ section#login > div#formulario {
     padding: 10px;
 
 
+
+}
+
+#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p {
+    font-size: 0.8em;
+}
+
+#campo > #senha {
+  
 
 }
 
